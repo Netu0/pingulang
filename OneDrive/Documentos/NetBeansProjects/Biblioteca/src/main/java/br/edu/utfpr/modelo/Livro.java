@@ -4,19 +4,22 @@
  */
 package br.edu.utfpr.modelo;
 
+
+
+
 /**
  *
  * @author Oswaldo Beltrani Net
  */
 public class Livro extends Midia {
-    
+
     private String isbn;
 
     public Livro(String isbn, String nome) {
         super(nome);
         this.isbn = isbn;
     }
-
+    
 
     public String getIsbn() {
         return isbn;
